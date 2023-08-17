@@ -74,7 +74,7 @@
 }
 @media screen and (max-width: 500px) {
   .footer-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
 }
