@@ -4,6 +4,7 @@ import Hero from "../Hero/Hero";
 import Course from "../Course/Course";
 import ReCourse from "../ReCourse/ReCourse";
 import About from "../About/About";
+import Achivement from "../Achivement/Achivement";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Course />
       <ReCourse />
       <About />
+      <Achivement />
     </div>
   );
 };
