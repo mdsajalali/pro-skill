@@ -5,7 +5,7 @@ import Student2 from "../../assets/images/student-2.jpg";
 
 const Feedback = () => {
   return (
-    <section>
+    <section id="feedback">
       <div className="feedback">
         <div className="feedback-heading">
           <h1>

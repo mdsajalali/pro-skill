@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const hanldeClick = () => setClick(!click);
   return (
-    <div className="navbar">
+    <div className="navbar" id="home">
       <div className="nav-container">
         <img src={logo} alt="logo" className="logo" />
         <ul className={click ? "ul active" : "ul"}>

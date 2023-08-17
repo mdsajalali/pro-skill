@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section>
+    <section id="about">
       <div className="about">
         <div className="about-img">
           <img src={AboutImg} alt="" />
