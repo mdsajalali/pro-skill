@@ -39,8 +39,6 @@
   margin-bottom: 2rem;
 }
 
-
-
 .course-box p {
   font-size: 1.7rem;
   font-weight: 600;
@@ -88,6 +86,8 @@
 @media screen and (max-width: 550px) {
   .course {
     max-width: 250px;
+  }
+  .course-box {
     margin: 2rem auto;
   }
 }
