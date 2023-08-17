@@ -4,8 +4,6 @@
 
 #### Live Link: [Pro Skill](https://proskill.vercel.app/)
 
-## Pages
-
 ## Used Technology
 
 - [x] HTML
