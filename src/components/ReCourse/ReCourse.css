@@ -32,13 +32,13 @@
 }
 
 .recourse-box {
- max-width: 35rem;
- border: 1px solid #ddd;
- border-radius: 10px;
- -webkit-border-radius: 10px;
- -moz-border-radius: 10px;
- -ms-border-radius: 10px;
- -o-border-radius: 10px;
+  max-width: 35rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .recourse-box img {
