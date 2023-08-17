@@ -1,0 +1,40 @@
+.newsletter {
+  text-align: center;
+  margin: 15rem 0;
+}
+
+.newsletter-btn {
+  background: #00b592;
+  padding: 1.5rem 5rem;
+}
+
+.newsletter h1 {
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.newsletter h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 2rem 0;
+  color: #475677;
+}
+
+@media screen and (max-width: 680px) {
+  .newsletter h1 {
+    font-size: 3rem;
+  }
+
+  .newsletter h2 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .newsletter h1 {
+    font-size: 2rem;
+  }
+
+  .newsletter h2 {
+    font-size: 2rem;
+  }
+}
