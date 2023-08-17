@@ -1,0 +1,84 @@
+.hero-bg {
+  background: linear-gradient(to right, #001550, #001652a6, #00165273),
+    url(../../assets/images/hero-bg.jpg) no-repeat center / cover;
+  height: calc(100vh - 6rem);
+}
+
+.heroTitle {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 15%;
+}
+
+.heroTitle h1 {
+  font-size: 7rem;
+  line-height: 1;
+  color: #fff;
+}
+
+.heroTitle h2 {
+  color: #ffbe58;
+  font-weight: 400;
+  font-size: 5rem;
+  margin-top: 1rem;
+}
+
+.heroTitle p {
+  font-size: 1.8rem;
+  color: #fff;
+  margin: 1rem 0 2rem 0;
+  max-width: 600px;
+}
+
+.btn {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 1.8rem;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+@media screen and (max-width: 1550px) {
+  .heroTitle {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .heroTitle {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .heroTitle {
+    max-width: 700px;
+  }
+  .heroTitle h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+    .heroTitle{
+        padding-top: 20rem;
+        margin: 2rem;
+    }
+  .heroTitle h1 {
+    font-size: 3rem;
+   
+  }
+
+  .heroTitle h2 {
+    font-size: 2rem;
+  }
+ 
+}
