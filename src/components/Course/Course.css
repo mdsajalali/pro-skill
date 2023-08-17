@@ -1,0 +1,91 @@
+#course {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.course {
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course-box {
+  border: 1px solid #ddd;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.course-box:hover {
+  background: rgb(248, 250, 252);
+  cursor: pointer;
+}
+
+.course-box img {
+  width: 60px;
+  margin-bottom: 2rem;
+}
+
+.course-box p {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.course-box .plus {
+  font-size: 5rem;
+}
+
+.plusHover {
+  background: rgb(255, 190, 88);
+  color: #fff;
+}
+
+.plusHover:hover {
+  background: rgb(255, 190, 88);
+}
+
+@media screen and (max-width: 1550px) {
+  .course {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .course {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .course {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .course {
+    max-width: 500px;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .course {
+    max-width: 250px;
+    margin-left: 7rem;
+  }
+}
