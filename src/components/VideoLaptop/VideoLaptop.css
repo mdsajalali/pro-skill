@@ -1,0 +1,35 @@
+.videoLaptop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem 0;
+  position: relative;
+}
+
+.icon {
+  font-size: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1160px) {
+  .videoLaptop img {
+    width: 100%;
+  }
+
+  .icon {
+    font-size: 7rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .icon {
+    font-size: 5rem;
+  }
+}
