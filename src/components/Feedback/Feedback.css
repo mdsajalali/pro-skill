@@ -1,0 +1,100 @@
+.feedback {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.feedback-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feedback-heading h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.feedback-heading span {
+  font-weight: bold;
+}
+
+.feedback-btn {
+  color: black;
+  border: 1px solid #ddd;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin: 5rem 0;
+}
+
+.feedback-card {
+  border: 1px solid #ddd;
+  padding: 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+}
+
+.feedback-card::after {
+  content: "";
+  background-image: url(../../assets/images/quote.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 7%;
+  left: 43%;
+  width: 100px;
+  height: 100px;
+}
+
+.feedback-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-top: 4rem;
+}
+
+.feedback-card p {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.feedback-card h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+.feedback-card h5 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 865px) {
+  .card {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 5rem auto;
+  }
+}
+@media screen and (max-width: 710px) {
+  .feedback-heading {
+    margin: 2rem 0;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .feedback-heading h1 {
+    font-size: 4rem;
+  }
+}

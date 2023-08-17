@@ -6,6 +6,7 @@ import ReCourse from "../ReCourse/ReCourse";
 import About from "../About/About";
 import Achivement from "../Achivement/Achivement";
 import VideoLaptop from "../VideoLaptop/VideoLaptop";
+import Feedback from "../Feedback/Feedback";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <About />
       <Achivement />
       <VideoLaptop />
+      <Feedback />
     </div>
   );
 };
