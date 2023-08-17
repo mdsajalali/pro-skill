@@ -5,7 +5,7 @@
 }
 
 .course {
-  height: 40rem;
+  min-height: 40rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
