@@ -8,6 +8,7 @@ import Achivement from "../Achivement/Achivement";
 import VideoLaptop from "../VideoLaptop/VideoLaptop";
 import Feedback from "../Feedback/Feedback";
 import Newsletter from "../Newsletter/Newsletter";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <VideoLaptop />
       <Feedback />
       <Newsletter />
+      <Footer />
     </div>
   );
 };
