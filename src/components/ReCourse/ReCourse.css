@@ -25,6 +25,89 @@
   font-weight: bold;
 }
 
+.box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+}
+
+.recourse-box {
+ max-width: 35rem;
+ border: 1px solid #ddd;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+}
+
+.recourse-box img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.thumbnail-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 2rem;
+}
+
+.thumbnail-title span {
+  font-size: 2rem;
+}
+.thumbnail-title .recourse-btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background: #e5f7f4;
+  border: none;
+  color: #369b94;
+}
+
+.thumbnail-heading {
+  font-size: 2rem;
+  margin: 3rem 0;
+  font-weight: 500;
+}
+
+.recourse-review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.review-icon,
+.review-half {
+  color: #ffbe58;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    grid-template-columns: auto auto;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .box {
+    grid-template-columns: auto;
+  }
+}
+
 @media screen and (max-width: 710px) {
   .recourse-heading {
     flex-direction: column;
