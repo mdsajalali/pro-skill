@@ -1,30 +1,30 @@
-import React, { useState } from "react";
-import "./Navbar.css";
-import logo from "../../assets/images/logo.png";
-import { GrLanguage } from "react-icons/gr";
+import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
+import { GrLanguage } from "react-icons/gr";
 import { MdClose } from "react-icons/md";
+import logo from "../../assets/images/logo.png";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
 
-  const hanldeClick = () => setClick(!click);
+  const handleClick = () => setClick(!click);
   return (
     <div className="navbar" id="home">
       <div className="nav-container">
         <img src={logo} alt="logo" className="logo" />
         <ul className={click ? "ul active" : "ul"}>
           <li>
-            <a href="#home">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="#course">Course</a>
+            <a href="#">Course</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#">About</a>
           </li>
           <li>
-            <a href="#feedback">Feedback</a>
+            <a href="#">Feedback</a>
           </li>
           <li>
             <a href="#">
@@ -32,7 +32,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <div className="hamburger" onClick={hanldeClick}>
+        <div className="hamburger" onClick={handleClick}>
           {click ? <MdClose size={20} /> : <CiMenuFries size={20} />}
         </div>
       </div>
