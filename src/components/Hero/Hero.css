@@ -1,6 +1,6 @@
 .hero-bg {
   background: linear-gradient(to right, #001550, #001652a6, #00165273),
-    url(../../assets/images/hero-bg.jpg) no-repeat center / cover;
+    url(../../assets/images/hero_bg.jpg) no-repeat center / cover;
   height: calc(100vh - 6rem);
 }
 
