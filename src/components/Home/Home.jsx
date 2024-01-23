@@ -1,10 +1,9 @@
-import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
 import Course from "../Course/Course";
 import ReCourse from "../ReCourse/ReCourse";
 import About from "../About/About";
-import Achivement from "../Achivement/Achivement";
+import Achievement from "../Achievement/Achievement";
 import VideoLaptop from "../VideoLaptop/VideoLaptop";
 import Feedback from "../Feedback/Feedback";
 import Newsletter from "../Newsletter/Newsletter";
@@ -18,7 +17,7 @@ const Home = () => {
       <Course />
       <ReCourse />
       <About />
-      <Achivement />
+      <Achievement />
       <VideoLaptop />
       <Feedback />
       <Newsletter />

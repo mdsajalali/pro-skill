@@ -1,40 +1,40 @@
-#achivement {
+#achievement {
   background: #eff7ff;
   min-height: 50rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.achivement {
+.achievement {
   max-width: 1500px;
   margin: auto;
   text-align: center;
 }
 
-.achivement-heading {
+.achievement-heading {
   margin: 5rem 0;
 }
 
-.achivement-heading h1 {
+.achievement-heading h1 {
   font-size: 5rem;
   font-weight: 700;
 }
-.achivement-heading p {
+.achievement-heading p {
   font-size: 2rem;
   max-width: 800px;
 }
 
-.achive {
+.achieve {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
 }
 
-.achive-length h2 {
+.achieve-length h2 {
   font-size: 5rem;
   font-weight: 500;
 }
-.achive-length p {
+.achieve-length p {
   font-size: 1.8rem;
   font-weight: 300;
 }
@@ -53,28 +53,28 @@
 }
 
 @media screen and (max-width: 888px) {
-  .achive {
+  .achieve {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
   }
 }
 @media screen and (max-width: 670px) {
-  .achive {
+  .achieve {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
   }
 
-  .achivement-heading h1 {
+  .achievement-heading h1 {
     font-size: 3rem;
   }
-  .achivement-heading p {
+  .achievement-heading p {
     font-size: 1.5rem;
   }
 
-  .achive-length h2 {
+  .achieve-length h2 {
     font-size: 3rem;
   }
-  .achive-length p {
+  .achieve-length p {
     font-size: 1.5rem;
   }
 }
