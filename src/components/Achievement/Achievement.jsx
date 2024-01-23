@@ -1,6 +1,12 @@
 import "./Achievement.css";
 
 const Achievement = () => {
+  const achievements = [
+    { value: "2400+", label: "Online Courses", class: "online-course" },
+    { value: "99,854+", label: "Enrolled Students", class: "enroll-student" },
+    { value: "650+", label: "Expert Instructors", class: "expert-instructor" },
+    { value: "1820+", label: "Profile Reviews", class: "profile-review" },
+  ];
   return (
     <section id="achievement">
       <div className="achievement">
@@ -13,22 +19,12 @@ const Achievement = () => {
           </p>
         </div>
         <div className="achieve">
-          <div className="achieve-length">
-            <h2 className="online-course">2400+</h2>
-            <p>Online Course</p>
-          </div>
-          <div className="achieve-length">
-            <h2 className="enroll-student">99,854+</h2>
-            <p>Enroll Student</p>
-          </div>
-          <div className="achieve-length">
-            <h2 className="expert-instructor">650+</h2>
-            <p>Expert Instructor</p>
-          </div>
-          <div className="achieve-length">
-            <h2 className="profile-review">1820+</h2>
-            <p>Profile Review</p>
-          </div>
+          {achievements.map((achieve, index) => (
+            <div key={index} className="achieve-length">
+              <h2 className={achieve.class}>{achieve.value}</h2>
+              <p>{achieve.label}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
