@@ -1,8 +1,6 @@
-import React from "react";
-import "./VideoLaptop.css";
+import { AiOutlinePlayCircle } from "react-icons/ai";
 import Laptop from "../../assets/images/video-laptop.png";
-import {AiOutlinePlayCircle} from "react-icons/ai"
- 
+import "./VideoLaptop.css";
 
 const VideoLaptop = () => {
   return (
@@ -10,10 +8,9 @@ const VideoLaptop = () => {
       <div className="videoLaptop">
         <img src={Laptop} alt="" />
         <div className="icon">
-         <AiOutlinePlayCircle />
+          <AiOutlinePlayCircle />
+        </div>
       </div>
-      </div>
-      
     </section>
   );
 };
