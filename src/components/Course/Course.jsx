@@ -1,37 +1,30 @@
-import React from "react";
-import "./Course.css";
-import Business from "../../assets/images/buiness.png";
+import Business from "../../assets/images/business.png";
 import Design from "../../assets/images/design.png";
 import Development from "../../assets/images/development.png";
-import Language from "../../assets/images/language.png";
 import Gaming from "../../assets/images/gaming.png";
+import Language from "../../assets/images/language.png";
+import "./Course.css";
 
 const Course = () => {
+  const courses = [
+    { image: Business, alt: "Business", title: "Business" },
+    { image: Design, alt: "Design", title: "Design" },
+    { image: Development, alt: "Development", title: "Development" },
+    { image: Language, alt: "Language", title: "Language" },
+    { image: Gaming, alt: "Gaming", title: "Gaming" },
+  ];
+
   return (
     <section id="course">
       <div className="course">
-        <div className="course-box">
-          <img src={Business} alt="Business" className="course-img" />
-          <p>Business</p>
-        </div>
-        <div className="course-box">
-          <img src={Design} alt="Business" className="course-img" />
-          <p>Design</p>
-        </div>
-        <div className="course-box">
-          <img src={Development} alt="Business" className="course-img" />
-          <p>Developement</p>
-        </div>
-        <div className="course-box">
-          <img src={Language} alt="Business" className="course-img" />
-          <p>Language</p>
-        </div>
-        <div className="course-box">
-          <img src={Gaming} alt="Business" className="course-img" />
-          <p>Gaming</p>
-        </div>
+        {courses.map((course, index) => (
+          <div key={index} className="course-box">
+            <img src={course.image} alt={course.alt} className="course-img" />
+            <p>{course.title}</p>
+          </div>
+        ))}
         <div className="course-box plusHover">
-           <span className="plus">+</span>
+          <span className="plus">+</span>
           <p>View Other</p>
         </div>
       </div>
