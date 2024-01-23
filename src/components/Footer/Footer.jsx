@@ -3,6 +3,7 @@ import "./Footer.css";
 import Logo from "../../assets/images/logo.png";
 
 const Footer = () => {
+  const getFullYear = new Date().getFullYear()
   return (
     <footer>
       <div className="footer">
@@ -37,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-text">
-        <p>Copyright @2023 Pro.skill</p>
+        <p>Copyright @{getFullYear} Pro.skill</p>
       </div>
     </footer>
   );
