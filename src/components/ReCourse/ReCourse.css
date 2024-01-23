@@ -118,6 +118,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .recourse-box {
+    max-width: 30rem;
+  }
   .heading {
     font-size: 3rem;
   }

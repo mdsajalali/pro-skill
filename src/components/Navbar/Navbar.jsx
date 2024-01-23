@@ -33,7 +33,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
-          {click ? <MdClose size={20} /> : <CiMenuFries size={20} />}
+          {click ? <MdClose size={25} /> : <CiMenuFries size={20} />}
         </div>
       </div>
     </div>
